@@ -1,8 +1,8 @@
 Gem::Specification.new do |spec|
-  spec.add_dependency 'mail'
+  spec.add_dependency 'mail', '~> 2.5'
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rspec'
-  spec.authors = ['Dan Croak']
+  spec.authors = ['Dan Croak', 'Paco Guzmán']
 
   spec.description = <<-eos
     Use RecipientInterceptor when you don't want your Ruby program to
@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
     staging environment.
   eos
 
-  spec.email = 'dan@thoughtbot.com'
+  spec.email = 'pacoguzmanp@gmail.com'
   spec.files = ['lib/recipient_interceptor.rb']
   spec.homepage = 'http://github.com/croaky/recipient_interceptor'
   spec.name = 'recipient_interceptor'
