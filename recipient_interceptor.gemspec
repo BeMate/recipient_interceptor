@@ -2,7 +2,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'mail', '~> 2.5'
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rspec'
-  spec.authors = ['Dan Croak', 'Paco Guzmán']
+  spec.authors = ['Dan Croak', 'Paco Guzman']
 
   spec.description = <<-eos
     Use RecipientInterceptor when you don't want your Ruby program to
